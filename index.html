@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabungan Mingguan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Tabungan Mingguan</h1>
+
+    <form id="transactionForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" required>
+
+        <label for="keterangan">Keterangan:</label>
+        <input type="text" id="keterangan" name="keterangan" required>
+
+        <button type="submit">Simpan</button>
+    </form>
+
+    <div id="message"></div>
+
+    <h2>Jumlah Tabungan:</h2>
+    <div id="totalTabungan"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
